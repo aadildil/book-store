@@ -1,0 +1,211 @@
+
+html
+{
+    font-size: 10px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #242121;
+    
+}
+.roboto
+{
+    font-family: 'Roboto Condensed';
+}
+.varela
+{
+    font-family: 'Varela Round';
+}
+nav
+{
+    background-color:  #292828;
+    padding: 1rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 2rem rgb(0,0,0,0.2);
+
+
+  
+}
+.logo-container
+{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-icon
+{
+    height: 6rem;
+    padding: 0px;
+}
+.logo-text
+{
+   color: white;
+}
+.logo-text span
+{
+  vertical-align: end;
+}
+.keazon
+{
+    font-size: 3rem;
+    right: 0px;
+    
+}
+.books
+{
+    font-size: 2rem;
+    color: #8d8d8d;
+}
+
+
+.search-container
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: fit-content;
+}
+.search-box
+{
+    display: flex;
+   background-color: #373737;
+   height: max-content;
+   padding-inline: 1.5rem;
+   
+   align-items: center;
+   gap: 2rem;
+   border-radius: 5px;
+   width: fit-content;
+  
+}
+.search-btn
+{
+    height: max-content;
+    padding-inline: 2rem;
+    padding-block: 5px;
+    background-color: transparent;
+    color:   #808080;
+    border: 0.5px solid #808080;
+    cursor: pointer;
+    
+}
+.search
+{
+    padding-block: 10px;
+    padding-inline: 2rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 40rem;
+    color:  #bfb9b9;
+
+}
+.search::placeholder
+{
+    color:  #808080;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+.buttons-container
+{
+    display: flex;
+    gap:3rem ;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.buttons-container *
+{
+    height: 3rem;
+    cursor: pointer;
+    margin-right: 3rem;
+   
+}
+.catimg
+{
+   border-radius: 50%;
+   height: 4rem;
+   width: 4rem;
+  
+}
+.container
+{
+    display: flex;
+    padding: 50px;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.book-container
+{
+    flex: 1;
+    
+    min-width: 350px;
+    max-width: 350px;
+    display: flex;
+    
+    box-sizing: border-box;
+    height: 200px;
+    align-items: center;
+    background-color: #71C5F461;
+    box-shadow: 1px 1px 5px rgb(49, 48, 48);
+}
+.book-img
+{
+    width:50%;
+    position: relative;
+  
+    padding: 0px;
+} 
+.book-img img 
+{
+    width: 150px;
+    height: 210px;
+    transform: rotate(-5deg);
+}
+.book-details
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.book-details *
+{
+    margin: 0px;
+}
+.book-title
+{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+   color: white;
+   text-shadow: 0.5px 0.5px 0.5px rgb(100, 99, 99);
+}
+.book-details p
+{
+    font-size: 1rem;
+   
+}
+.nowReadButton
+{
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    box-shadow: 1px 1px 1px rgba(78, 75, 75, 0.379);
+    text-shadow: 1px 1px 1px grey;
+    cursor: pointer;
+}
